@@ -1,0 +1,381 @@
+Checking available memory...33GB detected
+Setting autosave number to 5
+Setting crash reporting to True
+Setting max objects number to 2162688
+Setting timeout number to 300
+Setting max players to 8
+Setting autosave interval to 300s
+Setting disable seasonal events to 0
+Setting network quality number to 3
+Setting auto pause to False
+Setting autosave on disconnect to True
+Checking available space...277GB detected
+Downloading the latest version of the game...
+Redirecting stderr to '/home/steam/.steam/logs/stderr.txt'
+ILocalize::AddFile() failed to load file "public/steambootstrapper_english.txt".
+[  0%] Checking for available update...
+[----] Downloading update (105 of 54,186 KB)...
+[  0%] Downloading update (877 of 54,186 KB)...
+[  1%] Downloading update (2,150 of 54,186 KB)...
+[  3%] Downloading update (4,048 of 54,186 KB)...
+[  7%] Downloading update (6,447 of 54,186 KB)...
+[ 11%] Downloading update (8,761 of 54,186 KB)...
+[ 16%] Downloading update (11,564 of 54,186 KB)...
+[ 21%] Downloading update (14,124 of 54,186 KB)...
+[ 26%] Downloading update (16,684 of 54,186 KB)...
+[ 30%] Downloading update (19,500 of 54,186 KB)...
+[ 35%] Downloading update (22,060 of 54,186 KB)...
+[ 40%] Downloading update (24,620 of 54,186 KB)...
+[ 45%] Downloading update (27,179 of 54,186 KB)...
+[ 50%] Downloading update (29,868 of 54,186 KB)...
+[ 55%] Downloading update (32,303 of 54,186 KB)...
+[ 59%] Downloading update (33,873 of 54,186 KB)...
+[ 62%] Downloading update (35,761 of 54,186 KB)...
+[ 65%] Downloading update (37,041 of 54,186 KB)...
+[ 68%] Downloading update (38,321 of 54,186 KB)...
+[ 70%] Downloading update (39,729 of 54,186 KB)...
+[ 73%] Downloading update (41,009 of 54,186 KB)...
+[ 75%] Downloading update (42,289 of 54,186 KB)...
+[ 78%] Downloading update (43,697 of 54,186 KB)...
+[ 80%] Downloading update (44,977 of 54,186 KB)...
+[ 83%] Downloading update (46,257 of 54,186 KB)...
+[ 85%] Downloading update (47,665 of 54,186 KB)...
+[ 87%] Downloading update (48,945 of 54,186 KB)...
+[ 90%] Downloading update (50,225 of 54,186 KB)...
+[ 92%] Downloading update (51,633 of 54,186 KB)...
+[ 95%] Downloading update (52,913 of 54,186 KB)...
+[ 97%] Downloading update (54,186 of 54,186 KB)...
+[100%] Download complete.
+[----] Installing update...
+[----] Extracting package...
+[----] Extracting package...
+[----] Extracting package...
+[----] Extracting package...
+[----] Installing update...
+[----] Installing update...
+[----] Installing update...
+[----] Installing update...
+[----] Installing update...
+[----] Installing update...
+[----] Installing update...
+[----] Installing update...
+[----] Cleaning up...
+[----] Update complete, launching Steamcmd...
+Redirecting stderr to '/home/steam/Steam/logs/stderr.txt'
+[  0%] Checking for available updates...
+[----] Verifying installation...
+Steam Console Client (c) Valve Corporation
+-- type 'quit' to exit --
+Loading Steam API...OK
+
+Connecting anonymously to Steam Public...OK
+Waiting for client config...OK
+Waiting for user info...OK
+Success! App '1690800' already up to date.
+cron: can't open or create /var/run/crond.pid: Permission denied
+Starting periodic command scheduler: cron failed!
+Project file not found: /config/gamefiles/FactoryGame/FactoryGame.uproject
+sh: 1: xdg-user-dir: not found
+4.26.1-170147+++FactoryGame+main 522 3
+Disabling core dumps.
+LogInit: Display: Running engine for game: FactoryGame
+LogInit: Display: Project file not found: /config/gamefiles/FactoryGame/FactoryGame.uproject
+LogInit: Display:       Attempting to find via project info helper.
+LogUProjectInfo: Found projects:
+LogPakFile: Display: Found Pak file ../../../FactoryGame/Content/Paks/FactoryGame-LinuxServer.pak attempting to mount.
+LogPakFile: Display: Mounting pak file ../../../FactoryGame/Content/Paks/FactoryGame-LinuxServer.pak.
+LogPakFile: PakFile PrimaryIndexSize=587118
+LogPakFile: PakFile PathHashIndexSize=670699
+LogPakFile: PakFile FullDirectoryIndexSize=1861035
+LogPakFile: OnPakFileMounted2Time == 0.000060
+LogPlatformFile: Using cached read wrapper
+LogTaskGraph: Started task graph with 4 named threads and 8 total threads with 1 sets of task threads.
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
+LogPluginManager: Mounting plugin ReplicationGraph
+LogPluginManager: Mounting plugin DTLSHandlerComponent
+LogPluginManager: Mounting plugin Wwise
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin ApexDestruction
+LogPluginManager: Mounting plugin BlueprintStats
+LogPluginManager: Mounting plugin OnlineFramework
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LensDistortion
+LogPluginManager: Mounting plugin WindowsDeviceProfileSelector
+LogPluginManager: Mounting plugin SteamController
+LogPluginManager: Mounting plugin SteamShared
+LogPluginManager: Mounting plugin RawInput
+LogPluginManager: Mounting plugin MfMedia
+LogPluginManager: Mounting plugin OnlineSubsystemSteam
+LogPluginManager: Mounting plugin OnlineSubsystemEOS
+LogPluginManager: Mounting plugin EOSShared
+LogPluginManager: Mounting plugin EOSVoiceChat
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin PythonScriptPlugin
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin EditorTests
+LogPluginManager: Mounting plugin FbxAutomationTestBuilder
+LogPluginManager: Mounting plugin FunctionalTestingEditor
+LogPluginManager: Mounting plugin RuntimeTests
+LogPluginManager: Mounting plugin ScreenshotTools
+LogPluginManager: Mounting plugin CSSEditorToolsExtension
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin EnvironmentQueryEditor
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin PluginUtils
+LogPluginManager: Mounting plugin PropertyAccessEditor
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin MotoSynth
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MeshPainting
+[S_API] SteamAPI_Init(): Loaded local 'steamclient.so' OK.
+CAppInfoCacheReadFromDiskThread took 108 milliseconds to initialize
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin ChunkDownloader
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin AudioSynesthesia
+LogInit: Using libcurl 7.65.3-DEV
+LogInit:  - built for x86_64-unknown-linux-gnu
+LogInit:  - supports SSL with OpenSSL/1.1.1c
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_TLSAUTH_SRP
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+Shutdown handler: initalize.
+LogEOSSDK: Initializing EOSSDK Version:1.13.0-16697186
+LogOnline: OSS: Creating online subsystem instance for: EOS
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [EOS]
+LogSteamShared: Display: Loading Steam SDK 1.47
+LogCore: Warning: dlopen failed: /config/gamefiles/Engine/Binaries/Linux/libsteam_api.so: cannot open shared object file: No such file or directory
+LogSteamShared: Warning: Could not find system one, loading bundled libsteam_api.so.
+LogSteamShared: Display: Loaded libsteam_api.so at 0x5f0f00
+LogSteamShared: Steam SDK Loaded!
+LogOnline: OSS: Creating online subsystem instance for: Steam
+LogGenericPlatformMisc: Error: SetEnvironmentVar not implemented for this platform: SteamAppId = 526870
+LogSteamShared: Warning: Steam Dedicated Server API failed to initialize.
+LogOnline: STEAM: [AppId: 0] Game Server API initialized 0
+LogOnline: Warning: STEAM: Failed to initialize Steam, this could be due to a Steam server and client running on the same machine. Try running with -NOSTEAM on the cmdline to disable.
+LogOnline: Display: STEAM: OnlineSubsystemSteam::Shutdown()
+LogOnline: Warning: STEAM: Steam API failed to initialize!
+LogOnline: Display: STEAM: OnlineSubsystemSteam::Shutdown()
+LogOnline: OSS: Unable to create OnlineSubsystem module Steam
+LogInit: Build: ++FactoryGame+main-CL-170147
+LogInit: Engine Version: 4.26.1-170147+++FactoryGame+main
+LogInit: Compatible Engine Version: 4.26.1-170147+++FactoryGame+main
+LogInit: Net CL: 170147
+LogInit: OS: GenericOSVersionLabel (GenericOSSubVersionLabel), CPU: AMD Ryzen 5 3600 6-Core Processor              , GPU: GenericGPUBrand
+LogInit: Compiled (64-bit): Oct 18 2021 21:21:12
+LogInit: Compiled with Clang: 10.0.1 (https://github.com/llvm/llvm-project ef32c611aa214dea855364efd7ba451ec5ec3f74)
+LogInit: Build Configuration: Shipping
+LogInit: Branch Name: ++FactoryGame+main
+LogInit: Command Line:
+LogInit: Base Directory: /config/gamefiles/Engine/Binaries/Linux/
+LogInit: Allocator: binned2
+LogInit: Installed Engine Build: 0
+LogInit: Launcher File: /config/gamefiles/launcher_id
+LogInit: Launcher ID:
+LogInit: Launcher Artifact:
+LogInit: Presizing for max 2097152 objects, including 1 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogStreaming: Display: Async Loading initialized: Event Driven Loader: true, Async Loading Thread: false, Async Post Load: false
+LogInit: Object subsystem initialized
+[2021.10.26-20.03.53:333][  0]LogLinux: Selected Device Profile: [LinuxServer]
+[2021.10.26-20.03.53:333][  0]LogInit: Applying CVar settings loaded from the selected device profile: [LinuxServer]
+[2021.10.26-20.03.53:333][  0]LogHAL: Display: Platform has ~ 4 GB [16761188352 / 4294967296 / 16], which maps to Smallest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2021.10.26-20.03.53:333][  0]LogInit: Going up to parent DeviceProfile [Linux]
+[2021.10.26-20.03.53:333][  0]LogInit: Going up to parent DeviceProfile []
+[2021.10.26-20.03.53:333][  0]LogInit: Unix hardware info:
+[2021.10.26-20.03.53:333][  0]LogInit:  - we are the first instance of this executable
+[2021.10.26-20.03.53:333][  0]LogInit:  - this process' id (pid) is 79, parent process' id (ppid) is 72
+[2021.10.26-20.03.53:333][  0]LogInit:  - we are not running under debugger
+[2021.10.26-20.03.53:333][  0]LogInit:  - machine network name is 'b340f34b6527'
+[2021.10.26-20.03.53:333][  0]LogInit:  - user name is 'steam' (steam)
+[2021.10.26-20.03.53:333][  0]LogInit:  - we're logged in locally
+[2021.10.26-20.03.53:333][  0]LogInit:  - we're running without rendering
+[2021.10.26-20.03.53:334][  0]LogInit:  - CPU: AuthenticAMD 'AMD Ryzen 5 3600 6-Core Processor              ' (signature: 0x870F10)
+[2021.10.26-20.03.53:334][  0]LogInit:  - Number of physical cores available for the process: 6
+[2021.10.26-20.03.53:334][  0]LogInit:  - Number of logical cores available for the process: 12
+[2021.10.26-20.03.53:334][  0]LogInit:  - Cache line size: 64
+[2021.10.26-20.03.53:334][  0]LogInit:  - Memory allocator used: binned2
+[2021.10.26-20.03.53:334][  0]LogInit:  - This binary is optimized with LTO: no, PGO: no, instrumented for PGO data collection: no
+[2021.10.26-20.03.53:334][  0]LogInit:  - This is a licensee build.
+[2021.10.26-20.03.53:334][  0]LogCore: Benchmarking clocks:
+[2021.10.26-20.03.53:334][  0]LogCore:  - CLOCK_MONOTONIC (id=1) can sustain 22166010 (22166K, 22M) calls per second with 55.692612% zero deltas.
+[2021.10.26-20.03.53:334][  0]LogCore:  - CLOCK_MONOTONIC_RAW (id=4) can sustain 404448 (404K, 0M) calls per second without zero deltas.
+[2021.10.26-20.03.53:334][  0]LogCore:  - CLOCK_MONOTONIC_COARSE (id=6) can sustain 229829920 (229830K, 230M) calls per second with 99.999952% zero deltas.
+[2021.10.26-20.03.53:334][  0]LogCore: Selected clock_id 4 (CLOCK_MONOTONIC_RAW) since it is the fastest support clock without zero deltas.
+[2021.10.26-20.03.53:334][  0]LogCore: The clock source is too slow on this machine, performance may be affected.
+[2021.10.26-20.03.53:334][  0]LogInit: Unix-specific commandline switches:
+[2021.10.26-20.03.53:334][  0]LogInit:  -ansimalloc - use malloc()/free() from libc (useful for tools like valgrind and electric fence)
+[2021.10.26-20.03.53:334][  0]LogInit:  -jemalloc - use jemalloc for all memory allocation
+[2021.10.26-20.03.53:334][  0]LogInit:  -binnedmalloc - use binned malloc  for all memory allocation
+[2021.10.26-20.03.53:334][  0]LogInit:  -filemapcachesize=NUMBER - set the size for case-sensitive file mapping cache
+[2021.10.26-20.03.53:334][  0]LogInit:  -useksm - uses kernel same-page mapping (KSM) for mapped memory (OFF)
+[2021.10.26-20.03.53:334][  0]LogInit:  -ksmmergeall - marks all mmap'd memory pages suitable for KSM (OFF)
+[2021.10.26-20.03.53:334][  0]LogInit:  -preloadmodulesymbols - Loads the main module symbols file into memory (OFF)
+[2021.10.26-20.03.53:334][  0]LogInit:  -sigdfl=SIGNAL - Allows a specific signal to be set to its default handler rather then ignoring the signal
+[2021.10.26-20.03.53:334][  0]LogInit:  -httpproxy=ADDRESS:PORT - redirects HTTP requests to a proxy (only supported if compiled with libcurl)
+[2021.10.26-20.03.53:334][  0]LogInit:  -reuseconn - allow libcurl to reuse HTTP connections (only matters if compiled with libcurl)
+[2021.10.26-20.03.53:334][  0]LogInit:  -virtmemkb=NUMBER - sets process virtual memory (address space) limit (overrides VirtualMemoryLimitInKB value from .ini)
+[2021.10.26-20.03.53:334][  0]LogInit:  - Physical RAM available (not considering process quota): 16 GB (15984 MB, 16368348 KB, 16761188352 bytes)
+[2021.10.26-20.03.53:334][  0]LogInit:  - VirtualMemoryAllocator pools will grow at scale 1.4
+[2021.10.26-20.03.53:334][  0]LogInit:  - MemoryRangeDecommit() will will evict the memory from RAM (re-run with -novmapoolevict to change)
+[2021.10.26-20.03.53:386][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2021.10.26-20.03.53:386][  0]LogInit: Overriding language with engine language configuration option (en-US-Posix).
+[2021.10.26-20.03.53:386][  0]LogInit: Overriding language with engine locale configuration option (en-US-Posix).
+[2021.10.26-20.03.53:391][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Engine/en-US-POSIX/Engine.locres' could not be opened for reading!
+[2021.10.26-20.03.53:391][  0]LogTextLocalizationResource: LocRes '../../../Engine/Plugins/Online/OnlineFramework/Content/Localization/OnlineFramework/en-US-POSIX/OnlineFramework.locres' could not be opened for reading!
+[2021.10.26-20.03.53:391][  0]LogTextLocalizationResource: LocRes '../../../Engine/Plugins/Online/OnlineSubsystem/Content/Localization/OnlineSubsystem/en-US-POSIX/OnlineSubsystem.locres' could not be opened for reading!
+[2021.10.26-20.03.53:391][  0]LogTextLocalizationResource: LocRes '../../../Engine/Plugins/Online/OnlineSubsystemUtils/Content/Localization/OnlineSubsystemUtils/en-US-POSIX/OnlineSubsystemUtils.locres' could not be opened for reading!
+[2021.10.26-20.03.53:391][  0]LogTextLocalizationResource: LocRes '../../../Engine/Plugins/Online/OnlineSubsystemSteam/Content/Localization/OnlineSubsystemSteam/en-US-POSIX/OnlineSubsystemSteam.locres' could not be opened for reading!
+[2021.10.26-20.03.53:417][  0]LogRendererCore: Ray tracing is disabled. Reason: r.RayTracing=0.
+[2021.10.26-20.03.53:429][  0]LogInit: Overriding language with engine language configuration option (en-US-Posix).
+[2021.10.26-20.03.53:429][  0]LogInit: Overriding language with engine locale configuration option (en-US-Posix).
+[2021.10.26-20.03.53:437][  0]LogTextLocalizationResource: LocRes '../../../FactoryGame/Content/Localization/Game/en/Game.locres' could not be opened for reading!
+[2021.10.26-20.03.53:442][  0]LogTextLocalizationManager: Compacting localization data took   0.70ms
+[2021.10.26-20.03.53:589][  0]LogAssetRegistry: FAssetRegistry took 0.1334 seconds to start up
+[2021.10.26-20.03.53:652][  0]LogStreaming: Display: FlushAsyncLoading: 1 QueuedPackages, 0 AsyncPackages
+[2021.10.26-20.03.53:653][  0]LogPackageLocalizationCache: Processed 23 localized package path(s) for 2 prioritized culture(s) in 0.000405 seconds
+[2021.10.26-20.03.53:654][  0]LogPakFile: New pak file ../../../FactoryGame/Content/Paks/FactoryGame-LinuxServer.pak added to pak precacher.
+[2021.10.26-20.03.53:657][  0]LogLinux: Selected Device Profile: [LinuxServer]
+[2021.10.26-20.03.53:657][  0]LogInit: Active device profile: [0x7f2ee55c9f40][0x7f2f12547630 49] LinuxServer
+[2021.10.26-20.03.53:657][  0]LogInit: Profiles: [0x7f2ee55ca0c0][0x7f2f125489e0 49] Linux, [0x7f2ee55c9f40][0x7f2f12547630 49] LinuxServer,
+[2021.10.26-20.03.53:669][  0]LogSerialization: Display: AllowBulkDataInIoStore: 'true'
+[2021.10.26-20.03.53:671][  0]LogNetVersion: FactoryGame 1.0.0, NetCL: 170147, EngineNetVer: 16, GameNetVer: 0 (Checksum: 191819191)
+[2021.10.26-20.03.54:220][  0]LogActor: Warning: SetReplicates called on non-initialized actor Default__FGSimulatedWheeledVehicle. Directly setting bReplicates is the correct procedure for pre-init actors.
+[S_API] SteamAPI_Init(): Loaded local 'steamclient.so' OK.
+[S_API] SteamAPI_Init(): Loaded local 'steamclient.so' OK.
+[2021.10.26-20.03.54:401][  0]LogNiagara: Warning: NiagaraSystem /Game/FactoryGame/VFX/Factory/Doors/NS_DoorClose_01.NS_DoorClose_01 IsReadyToRunInternal() failed due to missing SystemScript.  Spawn[<none>] Update[<none>]
+[2021.10.26-20.03.55:748][  0]LogPakFile: Precache HighWater 16MB
+
+[2021.10.26-20.03.55:748][  0]LogPakFile: Precache HighWater 32MB
+
+[2021.10.26-20.03.55:748][  0]LogPakFile: Precache HighWater 48MB
+
+[2021.10.26-20.03.55:748][  0]LogPakFile: Precache HighWater 64MB
+
+[2021.10.26-20.03.55:748][  0]LogNiagara: Warning: NiagaraSystem /Game/FactoryGame/VFX/World/AmbientLife/Flies/NS_Fireflies_01.NS_Fireflies_01 IsReadyToRunInternal() failed due to missing SystemScript.  Spawn[<none>] Update[<none>]
+[2021.10.26-20.03.55:748][  0]LogNiagara: Warning: NiagaraSystem /Game/FactoryGame/VFX/World/AmbientLife/Bats/NS_Bats_01.NS_Bats_01 IsReadyToRunInternal() failed due to missing SystemScript.  Spawn[<none>] Update[<none>]
+[2021.10.26-20.03.55:945][  0]GameAnalyticsModule: Display: GameAnalyticsModule has started!
+[2021.10.26-20.03.55:945][  0]LogStreaming: Warning: Failed to read file '../../../FactoryGame/Saved/SaveGames/GameAnalytics.sav' error.
+[2021.10.26-20.03.56:079][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.10.26-20.03.56:079][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.10.26-20.03.56:105][  0]LogUObjectArray: 49612 objects as part of root set at end of initial load.
+[2021.10.26-20.03.56:105][  0]LogUObjectArray: 2 objects are not in the root set, but can never be destroyed because they are in the DisregardForGC set.
+[2021.10.26-20.03.56:105][  0]LogUObjectAllocator: 15770864 out of 0 bytes used by permanent object pool.
+[2021.10.26-20.03.56:105][  0]LogUObjectArray: CloseDisregardForGC: 49612/49612 objects in disregard for GC pool
+[2021.10.26-20.03.56:105][  0]LogEngine: Initializing Engine...
+[2021.10.26-20.03.56:107][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.001 s
+[2021.10.26-20.03.56:117][  0]LogInit: Initializing FReadOnlyCVARCache
+[2021.10.26-20.03.56:117][  0]LogNetVersion: Set ProjectVersion to 0.0.1.0. Version Checksum will be recalculated on next use.
+[2021.10.26-20.03.56:117][  0]LogInit: Texture streaming: Disabled
+[2021.10.26-20.03.56:145][  0]LogOnline: OSS: Creating online subsystem instance for: Steam
+[2021.10.26-20.03.56:145][  0]LogGenericPlatformMisc: Error: SetEnvironmentVar not implemented for this platform: SteamAppId = 526870
+[2021.10.26-20.03.56:149][  0]LogSteamShared: Warning: Steam Dedicated Server API failed to initialize.
+[2021.10.26-20.03.56:150][  0]LogOnline: STEAM: [AppId: 0] Game Server API initialized 0
+[2021.10.26-20.03.56:150][  0]LogOnline: Warning: STEAM: Failed to initialize Steam, this could be due to a Steam server and client running on the same machine. Try running with -NOSTEAM on the cmdline to disable.
+[2021.10.26-20.03.56:150][  0]LogOnline: Display: STEAM: OnlineSubsystemSteam::Shutdown()
+[2021.10.26-20.03.56:150][  0]LogOnline: Warning: STEAM: Steam API failed to initialize!
+[2021.10.26-20.03.56:150][  0]LogOnline: Display: STEAM: OnlineSubsystemSteam::Shutdown()
+[2021.10.26-20.03.56:150][  0]LogOnline: OSS: Creating online subsystem instance for: Steam
+[2021.10.26-20.03.56:150][  0]LogGenericPlatformMisc: Error: SetEnvironmentVar not implemented for this platform: SteamAppId = 526870
+[2021.10.26-20.03.56:154][  0]LogSteamShared: Warning: Steam Dedicated Server API failed to initialize.
+[2021.10.26-20.03.56:154][  0]LogOnline: STEAM: [AppId: 0] Game Server API initialized 0
+[2021.10.26-20.03.56:154][  0]LogOnline: Warning: STEAM: Failed to initialize Steam, this could be due to a Steam server and client running on the same machine. Try running with -NOSTEAM on the cmdline to disable.
+[2021.10.26-20.03.56:154][  0]LogOnline: Display: STEAM: OnlineSubsystemSteam::Shutdown()
+[2021.10.26-20.03.56:154][  0]LogOnline: Warning: STEAM: Steam API failed to initialize!
+[2021.10.26-20.03.56:154][  0]LogOnline: Display: STEAM: OnlineSubsystemSteam::Shutdown()
+[2021.10.26-20.03.56:154][  0]LogOnline: OSS: Creating online subsystem instance for: Steam
+[S_API] SteamAPI_Init(): Loaded local 'steamclient.so' OK.
+[2021.10.26-20.03.56:154][  0]LogGenericPlatformMisc: Error: SetEnvironmentVar not implemented for this platform: SteamAppId = 526870
+[2021.10.26-20.03.56:159][  0]LogSteamShared: Warning: Steam Dedicated Server API failed to initialize.
+[2021.10.26-20.03.56:160][  0]LogOnline: STEAM: [AppId: 0] Game Server API initialized 0
+[2021.10.26-20.03.56:160][  0]LogOnline: Warning: STEAM: Failed to initialize Steam, this could be due to a Steam server and client running on the same machine. Try running with -NOSTEAM on the cmdline to disable.
+[2021.10.26-20.03.56:160][  0]LogOnline: Display: STEAM: OnlineSubsystemSteam::Shutdown()
+[2021.10.26-20.03.56:160][  0]LogOnline: Warning: STEAM: Steam API failed to initialize!
+[2021.10.26-20.03.56:160][  0]LogOnline: Display: STEAM: OnlineSubsystemSteam::Shutdown()
+[2021.10.26-20.03.56:161][  0]LogServerQuery: Binding Server Query Socket to port 15777
+[2021.10.26-20.03.56:161][  0]LogStreaming: Warning: Failed to read file '/home/steam/.config/Epic/FactoryGame/Saved/SaveGames/ServerSettings.15777' error.
+[2021.10.26-20.03.56:162][  0]LogGame: MaxNumBackupsaves: 25
+[2021.10.26-20.03.56:162][  0]GameAnalyticsModule: Warning: Invalid EOS Metrics Handle
+[2021.10.26-20.03.56:162][  0]GameAnalyticsModule: Warning: AnalyticsService is initialized for Epic Online Services Metris
+[2021.10.26-20.03.56:162][  0]LogInit: Display: Game Engine Initialized.
+[2021.10.26-20.03.56:162][  0]LogNetVersion: Set ProjectVersion to ++FactoryGame+main-CL-170147. Version Checksum will be recalculated on next use.
+[2021.10.26-20.03.56:162][  0]LogConsoleResponse: Display: Can't switch to RHI thread mode when we are not running a multithreaded renderer.
+[2021.10.26-20.03.56:162][  0]LogConsoleResponse: Display: RHIThread is disabled.
+[2021.10.26-20.03.56:163][  0]LogInit: OnPostEngineInit has been broadcasted successfully.
+[2021.10.26-20.03.56:169][  0]LogInit: Display: Starting Game.
+[2021.10.26-20.03.56:169][  0]LogNet: Browse: /Game/FactoryGame/Map/DedicatedserverEntry?Name=Player
+[2021.10.26-20.03.56:170][  0]LogLoad: LoadMap: /Game/FactoryGame/Map/DedicatedserverEntry?Name=Player
+[2021.10.26-20.03.56:170][  0]LogWorld: BeginTearingDown for /Temp/Untitled_0
+[2021.10.26-20.03.56:173][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2021.10.26-20.03.56:178][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.85ms
+[2021.10.26-20.03.56:247][  0]LogAIModule: Creating AISystem for world DedicatedserverEntry
+[2021.10.26-20.03.56:248][  0]LogLoad: Game class is 'BP_GameModeMenu_C'
+[2021.10.26-20.03.56:250][  0]LogReplicationGraph: Display: SetActorDiscoveryBudget set to 20 kBps (5333 bits per network tick).
+[2021.10.26-20.03.56:327][  0]LogNetCore: DDoS detection status: detection enabled: 0 analytics enabled: 0
+[2021.10.26-20.03.56:327][  0]LogInit: BSD IPv4/6: Socket queue. Rx: 262144 (config 131072) Tx: 262144 (config 131072)
+[2021.10.26-20.03.56:327][  0]LogNet: Created socket for bind address: 0.0.0.0 on port 7777
+[2021.10.26-20.03.56:327][  0]PacketHandlerLog: Loaded PacketHandler component: DTLSHandlerComponent ()
+[2021.10.26-20.03.56:328][  0]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2021.10.26-20.03.56:328][  0]LogNet: GameNetDriver NetDriverEOS_2147482563 IpNetDriver listening on port 7777
+[2021.10.26-20.03.56:329][  0]LogWorld: Bringing World /Game/FactoryGame/Map/DedicatedserverEntry.DedicatedserverEntry up for play (max tick rate 30) at 2021.10.26-20.03.56
+[2021.10.26-20.03.56:332][  0]LogWorld: Bringing up level for play took: 0.004131
+[2021.10.26-20.03.56:333][  0]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.10.26-20.03.56:333][  0]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.10.26-20.03.56:335][  0]LogReplicationGraph: Display: SetActorDiscoveryBudget set to 20 kBps (5333 bits per network tick).
+[2021.10.26-20.03.56:335][  0]LogNetCore: DDoS detection status: detection enabled: 0 analytics enabled: 0
