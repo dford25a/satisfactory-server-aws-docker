@@ -62,7 +62,13 @@ export class ServerHostingStack extends Stack {
       description: "Allow Satisfactory client to connect to server",
     })
 
-    securityGroup.addIngressRule(ec2.Peer.anyIpv4(), ec2.Port.udp(7777), "Game port")
+    securityGroup.addIngressRule(ec2.Peer.anyIpv4(), ec2.Port.udp(7777), "Game port (UDP)")
+    // Satisfactory 1.0+ serves its management/Server Manager API over TCP 7777
+    securityGroup.addIngressRule(ec2.Peer.anyIpv4(), ec2.Port.tcp(7777), "Server API / Server Manager (TCP)")
+    // Satisfactory 1.1+ streams the join/state-sync transfer over a separate TCP
+    // "ReliableMessaging" socket on 8888. Without this, clients can claim and load
+    // a save but time out ("connection to host lost") when actually joining.
+    securityGroup.addIngressRule(ec2.Peer.anyIpv4(), ec2.Port.tcp(8888), "ReliableMessaging stream (TCP)")
     securityGroup.addIngressRule(ec2.Peer.anyIpv4(), ec2.Port.udp(15000), "Beacon port")
     securityGroup.addIngressRule(ec2.Peer.anyIpv4(), ec2.Port.udp(15777), "Query port")
 

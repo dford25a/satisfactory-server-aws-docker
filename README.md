@@ -79,6 +79,22 @@ Find your server's public IP in the EC2 console, then in Satisfactory:
 
 **Main menu → Server Manager → Add Server → `<IP>:7777`**
 
+### Required ports
+
+The CDK stack opens these automatically; listed here for reference:
+
+| Port | Protocol | Purpose |
+|------|----------|---------|
+| 7777 | UDP | Gameplay traffic |
+| 7777 | TCP | Server API / Server Manager |
+| 8888 | TCP | ReliableMessaging stream (join / state sync) |
+| 15000 | UDP | Beacon |
+| 15777 | UDP | Query |
+
+> **Note:** TCP 8888 is easy to miss. Without it you can claim the server and load a
+> save, but joining fails with **"connection to host lost"** after ~20 seconds, because
+> the join-time state transfer runs over a separate TCP socket on 8888.
+
 ## Restarting the server
 
 When the server auto-shuts down after idle, start it again via the API endpoint printed at the end of `cdk deploy`:
