@@ -2,6 +2,7 @@ import { Duration, Stack, StackProps } from 'aws-cdk-lib';
 import { Construct } from 'constructs';
 import { Config } from './config';
 import * as ec2 from 'aws-cdk-lib/aws-ec2';
+import * as lambda from 'aws-cdk-lib/aws-lambda';
 import * as s3 from 'aws-cdk-lib/aws-s3';
 import * as s3_assets from 'aws-cdk-lib/aws-s3-assets';
 import * as lambda_nodejs from 'aws-cdk-lib/aws-lambda-nodejs';
@@ -66,16 +67,16 @@ export class ServerHostingStack extends Stack {
     securityGroup.addIngressRule(ec2.Peer.anyIpv4(), ec2.Port.udp(15777), "Query port")
 
     const server = new ec2.Instance(this, `${prefix}Server`, {
-      // 2 vCPU, 8 GB RAM should be enough for most factories
-      instanceType: new ec2.InstanceType("m5a.large"),
+      // 2 vCPU, 16 GB RAM - memory optimized for large factories
+      instanceType: new ec2.InstanceType("r6a.large"),
       // get exact ami from parameter exported by canonical
       // https://discourse.ubuntu.com/t/finding-ubuntu-images-with-the-aws-ssm-parameter-store/15507
-      machineImage: ec2.MachineImage.fromSsmParameter("/aws/service/canonical/ubuntu/server/20.04/stable/current/amd64/hvm/ebs-gp2/ami-id"),
-      // storage for steam, satisfactory and save files
+      machineImage: ec2.MachineImage.fromSsmParameter("/aws/service/canonical/ubuntu/server/22.04/stable/current/amd64/hvm/ebs-gp2/ami-id"),
+      // storage for steam, satisfactory and save files (22.04 base ~5GB + ~12GB game)
       blockDevices: [
         {
           deviceName: "/dev/sda1",
-          volume: ec2.BlockDeviceVolume.ebs(15),
+          volume: ec2.BlockDeviceVolume.ebs(30),
         }
       ],
       // server needs a public ip to allow connections
@@ -142,6 +143,7 @@ export class ServerHostingStack extends Stack {
       const startServerLambda = new lambda_nodejs.NodejsFunction(this, `${Config.prefix}StartServerLambda`, {
         entry: './server-hosting/lambda/index.ts',
         description: "Restart game server",
+        runtime: lambda.Runtime.NODEJS_22_X,
         timeout: Duration.seconds(10),
         environment: {
           INSTANCE_ID: server.instanceId
